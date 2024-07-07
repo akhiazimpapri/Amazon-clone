@@ -10,6 +10,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo {
@@ -31,30 +32,126 @@
 .border:hover{
     border: 1.5px solid white;
 } 
+
  /**box1**/
 .nev-address {
     height: 50px;
     width: 117px;
-    border: 1.5px solid transparent;
 }
+
 .deliver {
     color: #cccccc;
     font-size: 0.85rem;
     margin-left: 15px;
 }
+
 .Bangladesh {
     color: #ffffff;
     font-size: 1rem;
     margin-left:3px ;
 }
+
 .add-icon{
     display: flex;
     align-items: center;
-}
-
-.nev-address:hover{
-    border: 1.5px solid white;
 } 
 
 /**box3**/
 
+.nev-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.nev-search:hover{
+    border: 2px solid #f08804;
+    border-radius: 4px;
+}
+
+.search-select {
+    font-size: 14px;
+    color: #0f1111;
+    background-color: #e6e6e6;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+
+.search-select:hover{
+    background-color: #a8a3a3;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 16px;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #f08804;
+    color: #0f1111;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.search-icon:hover {
+    background-color: #c97508;
+}
+
+/**box4**/
+.country {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-img{
+    background-image: url(img/Flag_of_the_United_Kingdom_\(1-2\).svg);
+    background-size: cover;
+    height: 16px;
+    width: 21px;
+}
+
+.country-name {
+    color: #ffffff;
+    background-color: #0f1111;
+    height: 15px;
+    width: 50px;
+    font-weight: bold;
+}
+
+/**box5 & 6**/
+span{
+    color: white;
+    font-size: 12px;
+    height: 14px;
+}
+
+.nev-second {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    height: 15px;
+}
+
+/**box7**/
+
+.nev-cart i {
+    font-size: 30px;
+}
+
+.nev-cart {
+    font-size: 14px;
+    font-weight: 700;
+}
