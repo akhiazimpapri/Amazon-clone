@@ -29,11 +29,12 @@
     border: 1.5px solid transparent;
 }
 
-.border:hover{
+.border:hover {
     border: 1.5px solid white;
 } 
 
  /**box1**/
+
 .nev-address {
     height: 50px;
     width: 117px;
@@ -51,14 +52,14 @@
     margin-left:3px ;
 }
 
-.add-icon{
+.add-icon {
     display: flex;
     align-items: center;
 } 
 
 /**box3**/
 
-.nev-search{
+.nev-search {
     display: flex;
     justify-content: space-evenly;
     width: 620px;
@@ -66,7 +67,7 @@
     border-radius: 4px;
 }
 
-.nev-search:hover{
+.nev-search:hover {
     border: 2px solid #f08804;
     border-radius: 4px;
 }
@@ -82,17 +83,17 @@
     border: none;
 }
 
-.search-select:hover{
+.search-select:hover {
     background-color: #a8a3a3;
 }
 
-.search-input{
+.search-input {
     width: 100%;
     font-size: 16px;
     border: none;
 }
 
-.search-icon{
+.search-icon {
     width: 45px;
     display: flex;
     justify-content: center;
@@ -109,6 +110,7 @@
 }
 
 /**box4**/
+
 .country {
     height: 50px;
     display: flex;
@@ -116,7 +118,7 @@
     align-items: center;
 }
 
-.flag-img{
+.flag-img {
     background-image: url(img/Flag_of_the_United_Kingdom_\(1-2\).svg);
     background-size: cover;
     height: 16px;
@@ -132,7 +134,8 @@
 }
 
 /**box5 & 6**/
-span{
+
+span {
     color: white;
     font-size: 12px;
     height: 14px;
@@ -157,6 +160,7 @@ span{
 }
 
 /**panel**/
+
 .panel {
     height: 40px;
     background-color: #222f3d;
@@ -172,11 +176,12 @@ span{
     margin-left: 10px;
 }
 
-.panel-ops{
+.panel-ops {
     width: 80%;
 }
 
-.panel-deals{font-size: 0.90rem;
+.panel-deals {
+    font-size: 0.90rem;
     font-weight: 700;
     height: 40px;
     display: flex;
@@ -187,7 +192,7 @@ span{
 
 /**hero-section**/
 
-.hero-section{
+.hero-section {
     background-image: url(img/hero_image.jpg);
     background-size: cover;
     height: 380px;
@@ -195,7 +200,8 @@ span{
     justify-content: center;
     align-items: flex-end;
 }
-.hero-massage{
+
+.hero-massage {
     background-color: white;
     height: 40px;
     display: flex;
@@ -206,20 +212,21 @@ span{
     margin-bottom: 25px;
 }
 
-.hero-massage a{
+.hero-massage a {
     text-decoration: none;
     color: #007185;
 }
 
 /**shop-section**/
-.shop-section{
+
+.shop-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #b2bcba;
 }
 
-.box{
+.box {
     height: 300px;
     width: 23%;
     background-color: white;
@@ -227,7 +234,7 @@ span{
     margin-top: 15px;
 }
 
-.box-img{
+.box-img {
      height: 230px;
      background-size: cover;
      background-repeat: no-repeat;
@@ -235,16 +242,18 @@ span{
      margin-bottom: 10px;
 }
 
-.box-contain{
+.box-contain {
     margin-left: 10px;
     margin-right: 10px;
 }
-.box-contain p{
+
+.box-contain p {
     color: #007185;
 }
 
 /**footer**/
-.foot-panel1{
+
+.foot-panel1 {
     background-color: #37475a;
     color: white;
     height: 40px;
@@ -253,15 +262,16 @@ span{
     align-items: center;
     font-size: 15px;
 }
-.foot-panel2{
+
+.foot-panel2 {
     color: white;
     background-color: #222f3d;
     height: 300px;
     display: flex;
     justify-content: space-evenly;
-
 }
-ul a{
+
+ul a {
     display: block;
     font-size: 14px;
     margin-top: 10px;
@@ -269,11 +279,13 @@ ul a{
     text-decoration: none;
 
 }
-ul p{
+
+ul p {
     font-size: 16px;
     margin-top: 25px;
 }
- .foot-panel3{
+
+ .foot-panel3 {
     background-color: #222f3d;
     color: white;
     border-top: 0.3px solid rgb(104, 98, 98);
@@ -283,14 +295,14 @@ ul p{
     align-items: center;
  }
 
- .logoA{
+ .logoA {
     height: 50px;
     width: 100px;
     background-size: cover;
     background-image: url(img/amazon_logo.png);
  }
 
- .foot-panel4{
+ .foot-panel4 {
     background-color: #0f1111;
     color: white;
     height: 80px;
@@ -299,14 +311,14 @@ ul p{
     text-align: center;
  }
 
- .foot-panel4 a{
+ .foot-panel4 a {
     margin-left: 10px;
  }
 
- .pages{
+ .pages {
     padding-top: 25px;
  }
 
- .copyright{
+ .copyright {
     padding-top: 5px;
  }
